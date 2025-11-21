@@ -12,3 +12,6 @@ test('adds negative numbers correctly', () => {
   expect(sum(-1, -2)).toBe(-3);
 });
 
+test('adds positive and negative number correctly', () => {
+  expect(sum(5, -3)).toBe(2);
+});
